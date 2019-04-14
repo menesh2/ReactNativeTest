@@ -6,8 +6,6 @@
  * @flow
  */
 
-import React from 'react';
-import { FlatList, ActivityIndicator, StyleSheet, TouchableHighlight, Text, View  } from 'react-native';
 import {createStackNavigator, createAppContainer} from 'react-navigation';
 import HomeScreen from './HomeScreen';
 import FetchMovies from './FetchMovies';
